@@ -1,0 +1,1 @@
+Define a controller named `ScreencastListController` on the `tagtree` module. For the moment the controller can be empty and it doesn't need to take any arguments.

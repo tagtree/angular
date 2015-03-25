@@ -1,0 +1,1 @@
+Set a variable called `screencasts` on `$scope` and set it's value to an empty array.

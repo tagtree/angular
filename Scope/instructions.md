@@ -1,0 +1,1 @@
+Add a dependency to `$scope` on the `ScreencastListController`.

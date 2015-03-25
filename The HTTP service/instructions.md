@@ -1,0 +1,1 @@
+Inject the `$http` service to the `ScreencastListController` controller.
