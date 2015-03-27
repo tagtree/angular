@@ -8,7 +8,7 @@ With Angular dependency injection all you need to do is name the arguments to yo
 One of these dependencies you will always take on your controller is the **scope**. Actually, in order to get it resolved and injected, you need to name the parameter `$scope`.
 
 
-In the following code we exxpand on our example, and make the 'OurController' take a `$scope` parameter, which will get auto resolved by Angular.
+In the following code we expand on our example, and make the 'OurController' take a `$scope` parameter, which will get auto resolved by Angular.
 
 ####Define a dependency to $scope on the controller
     var app = angular.module('ourApp', []);
