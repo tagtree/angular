@@ -12,7 +12,7 @@ In the following code we expand on our example, and make the 'OurController' tak
 
 ####Define a dependency to $scope on the controller
     var app = angular.module('ourApp', []);
-        app.controller('OurController', function($scope){
+    app.controller('OurController', function($scope){
     });
 
 
