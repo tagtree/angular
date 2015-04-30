@@ -2,7 +2,7 @@ Now that we've bound our view to the correct module we want to act as our app, w
 
 This is done in a similar manner to binding to the app, using a directive called `ng-controller`.
 
-What's this now? **Directives**? When we use custom markup attributes and elements in Angular, we are in fact using **directives**. We'll look at defining our own directives later on, but for now it should be sufficient to understand that when we are talking about directives, we are talking about markup that Angular knows to look out for, and then act upon. Directives are also how we bind markup to data, but we'll look a bit more at that a little bit later on in the course.
+What's this now? **Directives**? When we use custom markup attributes and elements in Angular, we are in fact using **directives**. We'll look at defining our own directives later on, but for now it should be sufficient to understand that when we are talking about directives, we are talking about markup that Angular knows to look out for, and then act upon. Directives are also how we bind markup to data, but we'll look at that a little later in this course.
 
 The following example binds the div element to a controller called `OurController`.
 
