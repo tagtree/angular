@@ -9,8 +9,17 @@ In the following code, we specify `ourApp` as the name for the module, and an em
 
 ####Creating our module
     var app = angular.module('ourApp', []);
+    
+You can now access the module via the variable `app`.
+You could also use the module getter Syntax to retrieve the module at any time:
+
+####Getting our module
+    angular.module('ourApp')
+    
+If you do not specify an array at the end angularJS will return the module instead of creating it.
 
 You don't strictly need to assign it to a variable, a lot of developers don't. It's just done this way to make the code easier to follow during this course.
+
 
 Try out the syntax for yourself.
 
