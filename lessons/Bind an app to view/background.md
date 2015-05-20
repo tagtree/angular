@@ -13,8 +13,13 @@ In order to do this, we use the `ng-app` attribute, specifying the name of the m
 The following example binds the div element to an app called `ourApp`.
 
 ####Wire up a view to an app
-    <div ng-app="ourApp">
+    <div id="myApp" ng-app="ourApp">
     </div>
+    
+You can also kick off the process manually in JavaScript like this:
+
+####Wiring a module manually
+    angular.bootstrap(document.getElementById('myApp'), ['ourApp'])
 
 
 
